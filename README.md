@@ -61,7 +61,7 @@ Python:
 
 short_ema = stock_data['Close'].ewm(span=short_term_window).mean()
 long_ema = stock_data['Close'].ewm(span=long_term_window).mean()
-# ... computations performed using higher-level abstractions …
+ ... computations performed using higher-level abstractions …
 
 Higher-Level Abstractions: Python operates at a higher level of abstraction, which might introduce more overhead compared to Rust's lower-level control over computations.
 
